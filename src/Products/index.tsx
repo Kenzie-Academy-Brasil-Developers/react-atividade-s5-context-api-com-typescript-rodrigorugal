@@ -1,4 +1,6 @@
-export const productsList = [
+import { Product } from "../types/Product";
+
+export const productsList: Product[] = [
   {
     id: 11,
     title: "Samsung Galaxy A01 Dual SIM 32 GB preto 2 GB RAM",

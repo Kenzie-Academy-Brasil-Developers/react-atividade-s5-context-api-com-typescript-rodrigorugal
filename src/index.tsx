@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+
 import App from "./App";
+import Provider from "./providers";
+import RESet from "./style/RESET/reset";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Provider>
+      <RESet />
       <App />
-    </BrowserRouter>
+    </Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );
